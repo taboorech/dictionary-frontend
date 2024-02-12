@@ -1,0 +1,8 @@
+.btn {
+  // background-color: var(--buttons-apply-background);
+  &.create-button {
+    position: fixed;
+    left: 1rem;
+    bottom: 1rem;
+  }
+}

@@ -1,0 +1,11 @@
+nav {
+  background-color: var(--navbar-background);
+  ul {
+    .active:not(.logoutButton) {
+      background-color: darken(#eef, 5%);
+    }
+  }
+  .brand-logo {
+    padding: 0 1rem;
+  }
+}
